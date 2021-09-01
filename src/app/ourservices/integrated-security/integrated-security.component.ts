@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ContentsService } from 'src/app/contents.service';
+import  AOS  from "aos";
 
 @Component({
   selector: 'app-integrated-security',
@@ -12,6 +13,7 @@ export class IntegratedSecurityComponent implements OnInit {
   constructor(private contentsService: ContentsService) { }
 
   ngOnInit(): void {
+    AOS.init()
     this.getOurServices()
   }
 

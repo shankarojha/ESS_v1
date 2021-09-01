@@ -17,6 +17,16 @@
     padding: 10px;  
 }
 
+.dropdown-primary{
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-primary:hover{
+    background-color: #fa6603;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+    color: white;
+}
 
 @media only screen and (max-width:576px) {
     
