@@ -1,5 +1,6 @@
-
-
+.afterNav{
+    overflow-x: hidden;
+}
 h2{
     font-size: 3em;
     font-weight: 800;
@@ -10,13 +11,14 @@ h2{
 
 .car-inner-custom{
     position: relative;
-    background: rgb(17, 0, 56);
+    background: rgb(3, 4, 93);
+    
 }
 
 .car-image{
     z-index: 2;
     height: 90vh;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 
@@ -34,6 +36,7 @@ h2{
 
 .carousel-text-col{
     z-index: 10;
+    overflow:hidden;
 }
 
 .carousel-text{
@@ -311,6 +314,9 @@ h2{
   font-size: 16px;
 }
 
+::-webkit-scrollbar:horizontal {
+    display: none;
+}
 
 
 

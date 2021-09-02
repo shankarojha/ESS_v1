@@ -3,30 +3,29 @@
 </header>
 
 
-<body>
-  <!-- carousel -->
-  <div id="carouselExampleCaptions" class="carousel slide carousel-custom" data-ride="carousel" data-interval="3000">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      <!-- <li data-target="#carouselExampleCaptions" data-slide-to="3"></li> -->
-    </ol>
-    <div class="carousel-inner car-inner-custom">
-      <div class="carousel-item active car-item1-custom">
-        <div class="col-6 ">
-          <div class="carousel-text">
-            <p data-aos="fade-up" data-aos-duration="1000">One of the leading security service provider</p>
-            <button data-aos="fade-up" data-aos-duration="1000" type="button"
-              class="btn btn-light btn-lg carouselButton">
-              Know more
-            </button>
-          </div>
+
+<!-- carousel -->
+<div id="carouselExampleCaptions" class="carousel slide carousel-custom" data-ride="carousel" data-interval="3000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <!-- <li data-target="#carouselExampleCaptions" data-slide-to="3"></li> -->
+  </ol>
+  <div class="carousel-inner car-inner-custom">
+    <div class="carousel-item active car-item1-custom">
+      <div class="col-6 ">
+        <div class="carousel-text">
+          <p data-aos="fade-up" data-aos-duration="1000">One of the leading security service provider</p>
+          <button data-aos="fade-up" data-aos-duration="1000" type="button" class="btn btn-light btn-lg carouselButton">
+            Know more
+          </button>
         </div>
-        <img src="../../assets/carousel/WhatsApp Image 2021-08-14 at 5.07.59 PM.jpeg" class="car-image d-block w-100"
-          alt="..." />
       </div>
-      <!-- <div class="carousel-item car-item1-custom d-none">
+      <img src="../../assets/carousel/WhatsApp Image 2021-08-14 at 5.07.59 PM.jpeg" class="car-image d-block w-100"
+        alt="..." />
+    </div>
+    <!-- <div class="carousel-item car-item1-custom d-none">
         <div class="col-6 carousel-col">
           <div class="carousel-text">
             <p data-aos="fade-up" data-aos-duration="1000">Technology focused supply chain solution Provider</p>
@@ -37,44 +36,43 @@
         </div>
         <img src="../../assets/carousel/training photo dog.jpg" class="car-image d-block w-100" alt="..." />
       </div> -->
-      <div class="carousel-item car-item1-custom">
-        <div class="col-6">
-          <div class="carousel-text">
-            <p data-aos="fade-up" data-aos-duration="1000">
-              Right Service + Right Time + Right User Experience
-            </p>
-            <button data-aos="fade-up" data-aos-duration="1000" type="button"
-              class="btn btn-light btn-lg carouselButton">
-              Know more
-            </button>
-          </div>
+    <div class="carousel-item car-item1-custom">
+      <div class="col-6">
+        <div class="carousel-text">
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Right Service + Right Time + Right User Experience
+          </p>
+          <button data-aos="fade-up" data-aos-duration="1000" type="button" class="btn btn-light btn-lg carouselButton">
+            Know more
+          </button>
         </div>
-        <img src="../../assets/carousel/jeshoots-com-__ZMnefoI3k-unsplash.jpg" class="car-image d-block w-100"
-          alt="..." />
       </div>
-      <div class="carousel-item car-item1-custom">
-        <div class="col-6">
-          <div class="carousel-text">
-            <p data-aos="fade-up" data-aos-duration="1000">
-              Technology focused supply chain solution Provider </p>
-            <button data-aos="fade-up" data-aos-duration="1000" type="button"
-              class="btn btn-light btn-lg carouselButton">
-              Know more
-            </button>
-          </div>
+      <img src="../../assets/carousel/gil-ribeiro-3hO8igCybds-unsplash.jpg" class="car-image d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item car-item1-custom">
+      <div class="col-6">
+        <div class="carousel-text">
+          <p data-aos="fade-up" data-aos-duration="1000">
+            Technology focused supply chain solution Provider </p>
+          <button data-aos="fade-up" data-aos-duration="1000" type="button" class="btn btn-light btn-lg carouselButton">
+            Know more
+          </button>
         </div>
-        <img src="../../assets/carousel/world-4292933_1280.jpg" class="car-image d-block w-100" alt="..." />
       </div>
+      <img src="../../assets/carousel/world-4292933_1280.jpg" class="car-image d-block w-100" alt="..." />
     </div>
   </div>
-  <nav id="navbarBottom" class="navScroll mb-2">
-    <app-navbar></app-navbar>
-  </nav>
+</div>
+
+
+<nav id="navbarBottom" class="navScroll mb-2">
+  <app-navbar></app-navbar>
+</nav>
 
 
 
-  <!--carousel ends-->
-
+<!--carousel ends-->
+<div class="afterNav">
   <div class="container text-center pt-5 pb-5">
     <div class="row">
       <div class="col-md-6">
@@ -141,7 +139,7 @@
         <br />
         <br />
         <div *ngFor="let item of ourServices" class="row">
-          <div class="col-3">
+          <div class="col-4">
             <img id="icon-whatwedo" src="../../assets/{{ item.icon }}" />
           </div>
           <div class="col-8">
@@ -157,9 +155,9 @@
       </div>
 
 
-      <div class="col-md-5 d-flex justify-content-center">
+      <div class="col-md-5 d-flex justify-content-center align-items-center">
         <img id="whatwedo-image" src="../../assets/collage.png" alt="image"
-          style='height: 100%; width: 100%; object-fit: fill' />
+          style='height: 90%; width: 100%; object-fit: fill' />
       </div>
     </div>
   </div>
@@ -188,7 +186,8 @@
                         <!-- <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /> -->
                       </div>
                       <!-- <h6 class="font-weight-medium">Retargeting Market</h6> -->
-                      <p class="mt-3" style="font-weight: 800;">As the right wing of ESS Group, Exman Security Services offers a range of security
+                      <p class="mt-3" style="font-weight: 800;">As the right wing of ESS Group, Exman Security Services
+                        offers a range of security
                         services, including Manned Guarding, Electronic Security, Risk Assessment Consultancy, Executive
                         Protection & Event Security in India. </p>
                     </div>
@@ -205,8 +204,10 @@
                         <!-- <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/features/feature1/market.png" alt="wrapkit" /> -->
                       </div>
                       <!-- <h6 class="font-weight-medium">Retargeting Market</h6> -->
-                      <p class="mt-3"style="font-weight: 800;">As FACILITY MANAGEMENT & SUPPLY CHAIN vertical of ESS Group, Excellent Sparta
-                        Services offers a wide spectrum of Facility Management and Logistics service specific to the diverse needs of the
+                      <p class="mt-3" style="font-weight: 800;">As FACILITY MANAGEMENT & SUPPLY CHAIN vertical of ESS
+                        Group, Excellent Sparta
+                        Services offers a wide spectrum of Facility Management and Logistics service specific to the
+                        diverse needs of the
                         customers throughout India. </p>
                     </div>
                   </div>
@@ -471,5 +472,5 @@
       </div>
     </div>
   </div>
-</body>
-<router-outlet></router-outlet>
+</div>
+  <router-outlet></router-outlet>

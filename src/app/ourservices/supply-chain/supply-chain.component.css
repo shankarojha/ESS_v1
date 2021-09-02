@@ -22,7 +22,7 @@ img{
 }
 
 #banner{
-    background-color: yellow;
+    background-color: rgb(4, 116, 243);
     background: linear-gradient(rgba(250, 21, 21, 0.5), rgba(0, 0, 0, 0.8)), url(../../../assets/personal_page/supply_chain.jpg);
     height:30vh;
     background-position: right;
@@ -31,6 +31,7 @@ img{
     font-size: 3em;
     font-weight: 800;
     color: rgb(255, 255, 255);
+    background-blend-mode:overlay;
 }
 
 .logo-small {
