@@ -5,9 +5,12 @@
     /* background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 50%, rgba(9,9,121,1) 100%) !important;
 */}
 
-.navbar-brand{
-    margin-top:0px;
-    padding: 10px
+
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
 }
 
 .nav-item{
@@ -28,15 +31,29 @@
     color: white;
 }
 
+.navbar-toggler{
+    border:2px solid white;
+}
+
 @media only screen and (max-width:576px) {
     
     .navbar-collapse{
         z-index: 20;
-        background: rgb(68, 68, 68);
+        background: rgb(250, 102, 3,0.9);
+        transition: all 1.5s ease 0s;
+        
     }
     .navbar-brand{
         font-size: 2em; 
     }
+
+    .nav-link{
+        
+        font-size: 1.1em;
+        transition: all 10s ease 0s;
+
+    }
+
   }
 
 @media only screen and (min-width:577px) and (max-width:992px){

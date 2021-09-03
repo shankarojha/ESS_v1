@@ -1,47 +1,336 @@
 <header>
     <app-navbar></app-navbar>
   </header>
-
-<body>
+  
+  <body>
     <div class="container-fluid d-flex align-items-center justify-content-center" id="banner">
-        <div class="row">
-            <div class="col-12">
-                Training
-            </div>
-        </div>
+      <div class="row">
+        <div class="col-12"><h1 class="text-center bannerText">Manpower Consultancy<br>&<br>Training</h1></div>
+      </div>
     </div>
     <div class="container mt-5">
-        <div class="row">
-            <div class="col-12 col-md-12">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <img src="../../../assets/personal page/training.jpg">
-                    </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="col-12 col-md-12">
+            <div class="row">
+              <div class="col-12 col-md-8 pt-5">
+                <p style="text-align: center;">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+              </div>
+              <div class=" d-none d-md-block col-4 pt-5 text-center">
+                <div data-aos="fade-left" data-aos-duration="1000" class="row siteImage">
+                  <img src="../../../assets/personal_page/training.jpg" />
                 </div>
-                <div class="row">
-                    <div class="col-12 pt-5">
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                        </p>
-                    </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="mt-5 row siteImage">
+                  <img src="../../../assets/personal_page/dog_training.jpg" />
                 </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class=" mt-5 row siteImage">
+                  <img src="../../../assets/personal_page/fire_training.jpg" />
+                </div>
+              </div>
+              <!-- Mobile only-->
+              <div class=" d-block d-md-none row pt-5 text-center">
+    
+                <img class="col-4 siteImage" data-aos="fade-left" data-aos-duration="1000"
+                  src="../../../assets/personal_page/training.jpg" />
+    
+    
+                <img class="col-4 siteImage" data-aos="fade-up" data-aos-duration="1000"
+                  src="../../../assets/personal_page/dog_training.jpg" />
+    
+    
+                <img class="col-4 siteImage" data-aos="fade-right" data-aos-duration="1000"
+                  src="../../../assets/personal_page/fire_training.jpg" />
+    
+              </div>
             </div>
-            <!--
-            <div class="d-none d-md-block col-md-3 text-center">
-                <div *ngFor="let item of ourServices">
-                    <a routerLink="/services/{{ item.service | removespace }}" class="card-title">
-                        <h4>{{ item.service }}</h4>
-                    </a>
-                    <hr />
-                </div>
-            </div>
-            -->
+          </div>
         </div>
+        <!--
+              <div class="d-none d-md-block col-md-3 text-center">
+                  <div *ngFor="let item of ourServices">
+                      <a routerLink="/services/{{ item.service | removespace }}" class="card-title">
+                          <h4>{{ item.service }}</h4>
+                      </a>
+                      <hr />
+                  </div>
+              </div>
+              -->
+      </div>
+      
+      <!-- SERVICES CARD SECTION-->
+      
+      <div class="col-12 pt-5 mb-1">
+        <!-- <h2>Services</h2> -->
+        <br>
+        <hr class="hr-text" data-content="Services">
+  
+        <div class="row m-0 d-flex justify-content-center">
+  
+          <div class="col-md-4  p-2  " data-aos="fade-right" data-aos-duration="1000">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body servicesCard">
+                <div class="row m-0 w-100">
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <!-- <h5 class="card-title align-self-center">Housekeeping</h5> -->
+                    
+                    <p style="font-weight: 800;">Skill Training</p>
+                  </div>
+  
+                  <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="cardIcons" src="./../../../assets/personal_page/education.png" style="color: red;">
+                  </div>
+                </div>
+  
+  
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+  
+          </div>
+          <div class="col-md-4  p-2  " data-aos="fade-right" data-aos-duration="1000">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body servicesCard">
+                <div class="row m-0 w-100">
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <!-- <h5 class="card-title align-self-center">Housekeeping</h5> -->
+                    <p style="font-weight: 800;">HR Outsourcing</p>
+                  </div>
+  
+                  <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="cardIcons" src="./../../../assets/personal_page/human.png">
+                  </div>
+                </div>
+  
+  
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="col-md-4  p-2  " data-aos="fade-right" data-aos-duration="1000">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body servicesCard">
+                <div class="row m-0 w-100">
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <!-- <h5 class="card-title align-self-center">Housekeeping</h5> -->
+                    
+                    <p style="font-weight: 800;">Permanent Recruitment</p>
+                  </div>
+  
+                  <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="cardIcons" src="./../../../assets/personal_page/headhunting.png">
+                  </div>
+                </div>
+  
+  
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="col-md-4  p-2  " data-aos="fade-right" data-aos-duration="1000">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body servicesCard">
+                <div class="row m-0 w-100">
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <!-- <h5 class="card-title align-self-center">Housekeeping</h5> -->
+                    
+                    <p style="font-weight: 800;">Contract Staffing</p>
+                  </div>
+  
+                  <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="cardIcons" src="./../../../assets/personal_page/contract.png">
+                  </div>
+                </div>
+  
+  
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+  
+          </div>
+  
+  
+  
+          <div class="col-md-4  p-2  " data-aos="fade-right" data-aos-duration="1000">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body servicesCard">
+                <div class="row m-0 w-100">
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <!-- <h5 class="card-title align-self-center"></h5> -->
+                    
+                    <p style="font-weight: 800;">Payroll Management</p>
+                  </div>
+  
+                  <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="cardIcons" src="./../../../assets/personal_page/salary.png ">
+                  </div>
+                </div>
+  
+  
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+          </div>
+  
+  
+          <div class="col-md-4 p-2  " data-aos="fade-right" data-aos-duration="1000">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body servicesCard">
+                <div class="row m-0 w-100">
+                  <div class="col-md-8 d-flex justify-content-center">
+                    <!-- <h5 class="card-title align-self-center"> </h5> -->
+                    
+                    <p style="font-weight: 800;">Skill Monitoring</p>
+                  </div>
+  
+                  <div class="col-md-4 d-flex justify-content-center align-items-center">
+                    <img class="cardIcons" src="./../../../assets/personal_page/skills.png">
+                  </div>
+                </div>
+  
+  
+                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                <!-- <a href="#" class="card-link">Card link</a> -->
+                <!-- <a href="#" class="card-link">Another link</a> -->
+              </div>
+            </div>
+          </div>
+  
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Housekeeping
+            </span>
+          </div> -->
+  
+  
+          <!--   
+          <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Handyman Services
+            </span>
+          </div> -->
+  
+  
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Front Office
+  
+  
+            </span>
+          </div> -->
+  
+  
+          <!-- <div class="col-md-4 p-2  ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              New Project Cleaning
+  
+            </span>
+          </div> -->
+  
+  
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Pest control & Landscaping
+            </span>
+          </div> -->
+  
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">Ground Transportation
+            </span>
+          </div> -->
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              AMC Management
+            </span>
+          </div> -->
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              HVAC & Electrical Services
+            </span>
+          </div> -->
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Utilities Management
+                            </span>
+          </div> -->
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Critical Systems Management
+            </span>
+          </div> -->
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              Cafeteria and Food Services
+            </span>
+          </div> -->
+  
+          <!-- <div class="col-md-4 p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle-fill" style="color: red;" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+            </svg>
+            <span class="ml-2">
+              One Time Project Cleaning
+            </span>
+          </div> -->
+  
+        </div>
+      </div>
     </div>
-</body>
+  </body>
+  <app-footer></app-footer>

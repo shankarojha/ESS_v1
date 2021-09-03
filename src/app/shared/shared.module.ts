@@ -6,14 +6,15 @@ import { NavbarComponent } from '../navbar/navbar.component';
 import { CardsComponent } from '../cards/cards.component';
 import { CounterAnimationDirective } from '../counter-animation.directive';
 import { RemovespacePipe } from '../removespace.pipe';
+import { FooterComponent } from '../footer/footer.component';
 
 
 @NgModule({
-  declarations: [NavbarComponent, CardsComponent, CounterAnimationDirective, RemovespacePipe],
+  declarations: [NavbarComponent, CardsComponent, CounterAnimationDirective, RemovespacePipe, FooterComponent],
   imports: [
     CommonModule,
     SharedRoutingModule
   ],
-  exports:[NavbarComponent, CardsComponent, CounterAnimationDirective, RemovespacePipe]
+  exports:[NavbarComponent, CardsComponent, CounterAnimationDirective, RemovespacePipe, FooterComponent]
 })
 export class SharedModule { }
