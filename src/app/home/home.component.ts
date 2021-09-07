@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
 }
   
   @HostListener("window:scroll", ['$event']) scrollFunction(){
-    if(document.documentElement.scrollTop>this.windowHeight-this.navbarHeight){
+    if(document.documentElement.scrollTop>this.windowHeight){
       this.navFix=true
     }else{
       this.navFix=false
