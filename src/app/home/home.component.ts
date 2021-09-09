@@ -28,9 +28,6 @@ export class HomeComponent implements OnInit {
     this.getNavbarHeight()
     this.getOurServices()
     this.getOurPortfolio()
-    console.log(this.windowHeight)
-    console.log(this.navbarHeight)
-    console.log(this.ourServices)
   }
 
   getNavbarHeight(){
@@ -38,7 +35,7 @@ export class HomeComponent implements OnInit {
 }
   
   @HostListener("window:scroll", ['$event']) scrollFunction(){
-    if(document.documentElement.scrollTop>this.windowHeight){
+    if(document.documentElement.scrollTop>this.windowHeight-this.navbarHeight){
       this.navFix=true
     }else{
       this.navFix=false

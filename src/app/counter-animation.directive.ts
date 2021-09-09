@@ -16,7 +16,6 @@ export class CounterAnimationDirective implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
-    console.log(this.documentHeightFromTop)
   }
    @HostListener("window:scroll", ['$event']) scrollFunction(){
      if(document.documentElement.scrollTop>this.documentHeightFromTop-500|| document.documentElement.scrollTop<=0){
