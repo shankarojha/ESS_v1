@@ -179,6 +179,20 @@ h2 {
   transform: scale(1.1)
 }
 
+/** SVG **/
+
+svg text{
+  display: none;
+}
+
+svg .ecl1, .path1{
+  display: none;
+}
+
+svg:hover .ecl1, svg:hover .path1, svg:hover text{
+  display: block;
+}
+
 @media only screen and (max-width: 576px) {
   .carousel-text {
     font-size: 2em;
