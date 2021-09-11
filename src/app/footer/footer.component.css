@@ -1,8 +1,48 @@
-.row{
-    height: 8vh;
+body{
+    margin-top: 30px;
     background-color: rgb(0, 0, 0, 0.9);
 }
 
-.footerBanner{
+
+
+
+.linkRow{
+    padding: 10px;
+}
+
+a{
+    color: white;
+    transition: all 0.6s ease-in 0s;
+}
+
+a:hover{
     color: #fa6603;
+    text-decoration: none;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 1000;
+}
+
+.hr-line:after{
+    content: " ";
+    display: block;
+    border-bottom: 5px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+    p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    p{
+        font-size: 0.8em;
+        text-align: center;
+    }
 }

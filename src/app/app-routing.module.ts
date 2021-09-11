@@ -5,6 +5,7 @@ const routes: Routes = [{ path: 'home', loadChildren: () => import('./home/home.
 {path: '',redirectTo:'home', pathMatch:'full'},
 { path: '*', redirectTo: 'home' },
 { path: 'services', loadChildren: () => import('./ourservices/ourservices.module').then(m => m.OurservicesModule) },
+{ path: 'policy', loadChildren: () => import('./policy/policy.module').then(m => m.PolicyModule) },
 { path: '**', redirectTo: 'home' }
 ];
 
