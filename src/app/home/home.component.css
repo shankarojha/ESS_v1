@@ -153,6 +153,7 @@ h2 {
   transition: all 0.3s ease 0s;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
+  font-size: 0.8em;
 }
 
 .card-T2{
@@ -162,6 +163,7 @@ h2 {
   transition: all 0.3s ease 0s;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
+  font-size: 0.8em;
 }
 
 .card-T1:hover,
@@ -171,6 +173,8 @@ h2 {
 }
 
 .cardIcons{
+  width:100px;
+  height: 100px;
   transition: all 0.3s ease 0s;
 }
 
@@ -223,6 +227,101 @@ svg:hover .ecl1, svg:hover .path1, svg:hover text{
   }
 }
 
+/** Timeline*/
+
+.timeline{
+  height: 500px;
+}
+
+.timeline-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zeroeth{
+  top: 250px;
+  font-size: 1.5em;
+  position: relative;
+  border-left: 10px solid #fa6603;
+  border-top: 10px solid #fa6603;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.first{
+  top: 200px;
+  font-size: 1.5em;
+  position: relative;
+  border-left: 10px solid #fa6603;
+  border-top: 10px solid #fa6603;
+  margin-left: 10px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.second{
+  top: 150px;
+  font-size: 1.5em;
+  position: relative;
+  border-left: 10px solid #fa6603;
+  border-top: 10px solid #fa6603;
+  margin-left: 10px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.third{
+  top: 100px;
+  font-size: 1.5em;
+  position: relative;
+  border-left: 10px solid #fa6603;
+  border-top: 10px solid #fa6603;
+  margin-left: 10px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.fourth{
+  top: 50px;
+  font-size: 1.5em;
+  position: relative;
+  border-left: 10px solid #fa6603;
+  border-top: 10px solid #fa6603;
+  margin-left: 10px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.fifth{
+  font-size: 1.5em;
+  position: relative;
+  border-left: 10px solid #fa6603;
+  border-top: 10px solid #fa6603;
+  margin-left: 10px;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.zeroeth:hover{
+  transform: scale(1.1)
+}
+.first:hover{
+  transform: scale(1.1)
+}
+.second:hover{
+  transform: scale(1.1)
+}
+.third:hover{
+  transform: scale(1.1)
+}
+.fourth:hover{
+  transform: scale(1.1)
+}
+.fifth:hover{
+  transform: scale(1.1)
+}
+
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   .carousel-text {
     font-size: 2em;
@@ -249,12 +348,85 @@ svg:hover .ecl1, svg:hover .path1, svg:hover text{
   #whatwedo-image {
     max-width: 90vw;
   }
+
+  .card-T1{
+    font-size: 0.6em;
+  }
+
+  .zeroeth{
+    top: 250px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    padding: 3px;
+  }
+  
+  .first{
+    top: 200px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .second{
+    top: 150px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .third{
+    top: 100px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .fourth{
+    top: 50px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .fifth{
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
 }
 
 #demo {
-  background: linear-gradient(112deg, #f1f0f0 50%, rgb(215, 230, 250) 50%);
+  background: linear-gradient(112deg, #f1f0f0 50%, rgb(250, 102, 3,0.6) 10%);
   max-width: 900px;
   margin: auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease 0s;
+}
+
+#demo .carousel-caption{
+  font-size: 1.2em;
+  color: #000;
+}
+
+#demo:hover{
+  transform: scale(1.1);
 }
 
 .carousel-caption {
@@ -288,6 +460,64 @@ svg:hover .ecl1, svg:hover .path1, svg:hover text{
 
   .carousel-caption p {
     height: auto;
+  }
+
+  .zeroeth{
+    top: 250px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    padding: 3px;
+  }
+  
+  .first{
+    top: 200px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .second{
+    top: 150px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .third{
+    top: 100px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .fourth{
+    top: 50px;
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
+  }
+  
+  .fifth{
+    font-size: 0.7em;
+    position: relative;
+    border-left: 3px solid #fa6603;
+    border-top: 3px solid #fa6603;
+    margin-left: 3px;
+    padding: 3px;
   }
 }
 

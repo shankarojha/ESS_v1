@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContentsService } from './contents.service';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -10,6 +11,7 @@ import { ContentsService } from './contents.service';
 @NgModule({
   declarations: [
     AppComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
