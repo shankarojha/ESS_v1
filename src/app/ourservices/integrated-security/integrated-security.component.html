@@ -3,20 +3,13 @@
 </header>
 
 <body>
-  <div
-    class="container-fluid d-flex align-items-center justify-content-center"
-    id="banner"
-  >
-    <div class="row">
-      <div class="col-12"><h1 class="text-center bannerText">Integrated Security</h1></div>
-    </div>
-  </div>
+  <img style="width: 100%;" src="../../../assets/banners/integrated-security-banner.jpg" alt="">
   <div class="container mt-5">
     <div class="row">
       <div class="col-12 col-md-12">
         <div class="row">
           <div class="col-12 col-md-8 pt-5">
-            <p style="text-align: center;">
+            <p style="text-align: justify;">
               We are well organized, experienced security agency, engaged in business commercially. We are providing well experienced Ex-Defence officer/staff & other dedicated professionally trained security personnel. We provide total integrated security system, which are also well equipped to handle your future expansions & emergencies.
               A company that believes in maintaining high order supervision on the personnel involved at grass root levels. A battery
               of highly qualified Operational Managers gives result at 100% efficiency levels of every individual. Special emphasis is
@@ -159,5 +152,47 @@
     </div>
   </div>
 </body>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Contact us</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-12" id="form-col">
+              <form class="pt-5 pb-5">
+                <div class="form-group">
+                  <label for="name">Name <i class="fa fa-user"></i></label>
+                  <input class="form-control" type="text" placeholder="" />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address <i class="fa fa-envelope"></i></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message <i class="fa fa-comment"></i></label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button data-dismiss="modal" type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <app-footer></app-footer>
 

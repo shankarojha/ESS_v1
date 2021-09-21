@@ -19,12 +19,11 @@ img {
 
 #banner {
   background-color: rgb(4, 116, 243);
-  background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(54, 1, 1, 0.8)),
-    url(../../../assets/personal_page/supply_chain.jpg);
-  height: 30vh;
-  background-position: center;
+  background: url(../../../assets/banners/supplychain-banner.jpg);
+  height: 50vh;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   font-size: 3em;
   font-weight: 800;
   color: rgb(255, 255, 255);
