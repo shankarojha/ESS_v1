@@ -1,0 +1,40 @@
+.container{
+    min-height: 100vh;
+}
+
+.row{
+    background-color: #fa6603;
+    padding: 20px;
+    color: white;
+}
+
+h1{
+    font-weight: 900;
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 576px) {
+    p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .container{
+        height: fit-content;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+
+    .container{
+        height: fit-content;
+    }
+}

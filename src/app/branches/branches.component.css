@@ -1,0 +1,84 @@
+
+.card-T1{
+  background-color: #fa6603 ;
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+.card-T2{
+  background-color: #fff;
+  color: #fa6603;
+  border: 1px solid #212443;  
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  font-size: 0.8em;
+}
+
+.card-T1:hover,
+.card-T2:hover{
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.4) !important;
+  transform: translateY(-3px) !important;
+}
+
+.cardIcons{
+  width:100px;
+  height: 100px;
+  transition: all 0.3s ease 0s;
+}
+
+.card-T1:hover .cardIcons,
+.card-T2:hover .cardIcons{
+  transform: scale(1.1)
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-text {
+    font-size: 2em;
+  }
+
+  .carouselButton {
+    font-size: 0.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+    font-weight: 800;
+  }
+}
+
+
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+ 
+  h2 {
+    font-size: 2em;
+    font-weight: 800;
+  }
+  
+
+  .card-T1{
+    font-size: 0.6em;
+  }
+}
+
+@media (max-width: 767px) {
+  i {
+    padding: 0.8rem;
+  }
+}
+
+.carousel1-control-prev {
+  justify-content: flex-start;
+}
+
+.card:hover {
+  transform: scale(1, 1.1);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+
