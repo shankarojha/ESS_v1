@@ -182,15 +182,14 @@ h2 {
 
 /** SVG **/
 
-svg text{
-  display: none;
-}
+
 
 svg .ecl1, .path1{
   display: none;
+  transition: all 1s ease 5s;
 }
 
-svg:hover .ecl1, svg:hover .path1, svg:hover text{
+svg:hover .path1{
   display: block;
 }
 

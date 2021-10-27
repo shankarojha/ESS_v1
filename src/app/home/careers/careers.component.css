@@ -119,6 +119,10 @@ img {
   font-weight: bold;
 }
 
+td{
+  color: white;
+}
+
 @media only screen and (max-width: 576px) {
   p {
     font-size: 1em;
