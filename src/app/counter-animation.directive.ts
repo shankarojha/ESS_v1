@@ -29,7 +29,7 @@ export class CounterAnimationDirective implements OnInit, OnDestroy {
       if(this.startingValue<this.upto) {
         this.startingValue+=1;
         this.el.nativeElement.innerHTML = `${this.startingValue}`;
-        setTimeout(this.counter,100)
+        setTimeout(this.counter,1000)
       }
     }
   
